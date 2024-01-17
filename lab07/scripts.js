@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let todos = [];
 
-    function addTodo() {
+    function addTodo() { 
     const todoText = todoInput.value.trim();
     if (todoText !== "") {
     const todoItem = {
